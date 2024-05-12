@@ -1,0 +1,24 @@
+.nav {
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    font-weight: $font-weight-bold;
+  }
+
+  &__item {
+    width: max-content;
+    margin-bottom: 32px;
+    border-bottom: 1px solid transparent;
+
+    @include hover(border-color, $text-color);
+  }
+
+  &__link {
+    color: inherit;
+    text-decoration: none;
+    font-size: 22px;
+  }
+}

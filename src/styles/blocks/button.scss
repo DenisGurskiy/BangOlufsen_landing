@@ -1,0 +1,21 @@
+.button {
+  width: 100%;
+  height: 56px;
+
+  background: $input-focus-color;
+  border-radius: 8px;
+  border: none;
+
+  font-family: "'Manrope'", sans-serif;
+  font-weight: $font-weight-bold;
+  font-size: 16px;
+  line-height: 27px;
+  color: #fff;
+  cursor: pointer;
+
+  @include hover(background-color, $text-color);
+
+  &:active {
+    background: #010810;
+  }
+}

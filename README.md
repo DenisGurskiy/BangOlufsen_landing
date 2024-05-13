@@ -15,6 +15,17 @@ This project is a simple landing page layout designed and developed using HTML a
 # Usage
 To view the Landing Page Layout, simply open the index.html file in a web browser. Alternatively, you can access the live version of the page [here](https://DenisGurskiy.github.io/BangOlufsen_landing/).
 
+
+# Installation
+To run this project locally, follow these steps:
+1. Clone the repository:
+ - git clone https://github.com/DenisGurskiy/BangOlufsen_landing.git
+2. Install dependencies:
+ - npm install
+3. Run the development server:
+ - npm start
+4. Open your browser and visit http://localhost:8080 to view the application.
+
 # Contributing
 Contributions are welcome! If you'd like to contribute to the project, feel free to fork the repository, make your changes, and submit a pull request.
 

@@ -39,7 +39,7 @@
     box-sizing: border-box;
     padding: 14px 16px;
 
-    background: $input-bgcolor;
+    background-color: $input-bgcolor;
     border: 1px solid transparent;
     border-radius: 8px;
 
@@ -62,11 +62,13 @@
 
     &:hover::placeholder {
       color: $placeholder-hover-color;
+      background-color: $input-bgcolor !important;
     }
 
     &:focus {
       outline: none;
       border: 2px solid $input-focus-color;
+      background-color: $input-bgcolor !important;
     }
 
     &--textarea {
@@ -99,6 +101,7 @@
     color: $link-color;
 
     @include hover(color, #111);
+    @include hover(font-size, 17px);
   }
 
   @include onTablet {
